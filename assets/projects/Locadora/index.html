@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Lopes LocalDora</title>
+
+		<!-- Bootstrap -->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+		<!-- Java Script -->
+		<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+
+		<link rel="stylesheet" href="assets/css/main.css" type="text/css">	
+	</head>
+	
+	<body>
+		<!--Criando a barra de navegação-->
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-3">
+			
+			<!--Criando o container onde ficarão todos os itens da barra-->
+			<div class="container-fluid">
+				
+				<!--Dando o título que fica na barra chamado brand-->
+				<a class="navbar-brand" href="#HomePage">
+					<img src="assets/Images/pic01.png" alt="ícone do filme" width="50px" height="40px" class="d-inline-block align-text-center"> Locadora Lopez
+				</a>
+				
+				<!--Criando o menu com as opções que ficaram na barra de navegação-->
+				<div class="collapse navbar-collapse" id="navbarNav">
+					
+					<!--Criando o que cada opção vai fazer-->
+					<ul class="navbar-nav">
+						
+						<!--Primeira opção da nossa barra de navegação-->
+						<li class="nav-item">
+							<a class="nav-link active" href="#TableFilmes">Filmes Disponíveis</a>
+						</li>
+						
+						<!--Segunda opção da nossa barra de navegação, dropdown-->
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Filmes por Categoria</a>
+
+							<!--Menu que vai ser dropado após o usuário clicar-->
+							<ul class = "dropdown-menu dropdown-menu-dark">
+								<li><a class = 'dropdown-item' href="#acao">Ação  		 </a></li>
+								<li><a class = 'dropdown-item' href="#aventura">Aventura </a></li>
+								<li><a class = 'dropdown-item' href="#romance">Romance   </a></li>
+								<li><a class = 'dropdown-item' href="#suspense">Suspense </a></li>
+								<li><a class = 'dropdown-item' href="#drama">Drama       </a></li>
+								<li><a class = 'dropdown-item' href="#comedia">Comédia   </a></li>
+							</ul>
+						</li>
+						
+						<!--Terceira opção da nossa barra de navegação-->
+						<li class="nav-item">
+							<a href="#TituloCadastro" class="nav-link active">Cadastrar Filmes</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+		<!--Criando o nome do título em h1 da tabela filmes-->
+		<div class="container">
+			<h1 id = "TableFilmes" class="display-1 text-center mb-lg-5">Tabela de Filmes</h1>
+		</div>
+		
+		<!--Criando um container onde se encontrará nossa tabela-->
+		<div class="container">
+			<table class="table table-dark table-bordered table-hover">
+				
+				<!-- Linha com títulos das colunas -->
+				<thead>
+					<tr>
+						<th>Código		 	</th>
+						<th>Título		 	</th>
+						<th>Diretor		 	</th>
+						<th>Lançamento	 	</th>
+						<th>Gênero		 	</th>
+						<th>Atriz Principal </th>
+						<th>Nota IMDb 		</th>
+					</tr>
+				</thead>
+				
+				<!-- Corpo da tabela -->
+				<tbody>
+					
+					<!-- Linha expandida com gênero ação -->
+					<tr>
+						<th style="background-color: #1c1c1c;" colspan="7" id="acao">Ação</th>
+					</tr>
+					
+					<!-- Primeiro filme Gênero Ação -->
+					<tr>
+						<th>1</th>
+						<td><a href="https://g.co/kgs/3R6gJd">Príncipe da Pérsia: As Areias do Tempo</a></td>
+						<td><a href="https://g.co/kgs/4Kav3J">Mike Newell</a></td>
+						<td>3 de junho de 2010</td>
+						<td>Ação</td>
+						<td><a href="https://g.co/kgs/uFWnh1">Jake Gyllenhaal</a></td>
+						<td>6.6</td>
+					</tr>
+					
+					<!-- Segundo filme Gênero Ação-->
+					<tr>
+						<th>2</th>
+						<td><a href="https://g.co/kgs/xZJNXQ">Rambo Programado para Matar</a></td>
+						<td><a href="https://en.wikipedia.org/wiki/Ted_Kotcheff">Ted Kotcheff</a></td>
+						<td>6 de novembro de 1982</td>
+						<td>Ação</td>
+						<td><a href="https://pt.wikipedia.org/wiki/Sylvester_Stallone">Sylvester Stallone</a></td>
+						<td>7.7</td>
+					</tr>
+					
+					<!-- Terceiro Filme Gênero Ação -->
+					<tr>
+						<th>3</th>
+						<td><a href="https://g.co/kgs/5nWKMX">O Predador: A Caçada</a></td>
+						<td><a href="https://g.co/kgs/VKBGpD">Dan Trachtenberg</a></td>
+						<td>5 de agosto de 2022</td>
+						<td>Ação</td>
+						<td><a href="https://g.co/kgs/HBgEJq">Amber Midthunder</a></td>
+						<td>7.2</td>
+					</tr>
+
+					<!-- Linha expandida com gênero Romance -->
+					<tr>
+						<th style="background-color: #1c1c1c;" colspan='7' id="romance">Romance</th>
+					</tr>
+
+					<!-- Primeiro filme do gênero Romance -->
+					<tr>
+						<th>4</th>
+						<td><a href="https://g.co/kgs/2D61QJ">Cidade Perdida</a></td>
+						<td><a href="https://g.co/kgs/rz7ree">Aaroon Nee</a></td>
+						<td>21 de Abril de 2022</td>
+						<td><a href="https://g.co/kgs/GfUBqQ">Sandra Bullock</a></td>
+						<td>Romance</td>
+						<td>6.1</td>
+					</tr>
+
+					<!-- Segundo filme do gênero Romance-->
+					<tr>
+						<th>5</th>
+						<td><a href="https://g.co/kgs/VkVFrx">Questão de tempo</a></td>
+						<td><a href="https://g.co/kgs/iWpjd1">Richard Curtis</a></td>
+						<td>20 de Dezembro de 2013</td>
+						<td><a href="https://g.co/kgs/rcJZ7w">Rachel Adams</a></td>
+						<td>Romance</td>
+						<td>7.8</td>
+					</tr>
+
+					<!-- Terceiro filme do gênero Romance -->
+					<tr>
+						<th>6</th>
+						<td><a href="https://g.co/kgs/PfrCYc">50 Tons de Cinza</a></td>
+						<td><a href="https://g.co/kgs/vpPYPT">Sam Taylor</a></td>
+						<td>12 de feveiro de 2015</td>
+						<td><a href="https://g.co/kgs/dFyPqH">Jamie Jordan</a></td>
+						<td>Romance</td>
+						<td>4.1</td>
+					</tr>
+					
+					<!-- Linha expandida com gênero Aventura -->
+					<tr>
+						<th style="background-color: #1c1c1c;" colspan='7' id="aventura">Aventura</th>
+					</tr>
+					
+					<!-- Primeiro Filme Gênero Aventura -->
+					  <tr>
+						<th>7</th>
+						<td><a href="https://g.co/kgs/8J3k51">WALL·E</a></td>
+						<td><a href="https://g.co/kgs/xkYfr2">Andrew Stanton</a></td>
+						<td>27 de junho de 2008</td>
+						<td>Aventura</td>
+						<td>Robo Walle</td>
+						<td>8.4</td>
+					</tr>
+					
+					<!-- Segundo Filme Gênero Aventura -->
+					<tr>
+						<th>8</th>
+						<td><a href="https://g.co/kgs/eo5Wfz">Up - Altas Aventuras</a></td>
+						<td><a href="https://g.co/kgs/t4eTni">Pete Docter</a></td>
+						<td>4 de setembro de 2009</td>
+						<td>Aventura</td>
+						<td><a href="https://g.co/kgs/ZLjh8f">Carl Fredricksen</a></td>
+						<td>8.3</td>
+					</tr>
+					
+					<!-- Terceiro FIlme Gênero Aventura -->
+					<tr>
+						<th>9</th>
+						<td><a href="https://g.co/kgs/ZvugMb">Rio 2</a></td>
+						<td><a href="https://g.co/kgs/2gTHrV">Carlos Saldanha</a></td>
+						<td>27 de março de 2014</td>
+						<td>Aventura</td>
+						<td><a href="https://g.co/kgs/Y28z8L">Jesse Einsenberg (Blu)</a></td>
+						<td>6.3</td>
+					</tr>
+
+					<!-- Linha expandida com gênero Suspense-->
+					<tr>
+						<th style="background-color: #1c1c1c;" colspan='7' id="suspense">Suspense</th>
+					</tr>
+
+					<!-- Primeiro filme do gênero Suspense-->
+					<tr>
+						<th>10</th>
+						<td><a href="https://g.co/kgs/WuRVi2">Sem Saída</a></td>
+						<td><a href="https://g.co/kgs/LW28bh">Damien Power</a></td>
+						<td>25 de Fevereiro de 2022</td>
+						<td><a href="https://g.co/kgs/znNg7m">Danny Ramires</a></td>
+						<td>Suspense</td>
+						<td>6.2</td>
+					</tr>
+
+					<!-- Segundo Filme do Gênero Suspense-->
+					<tr>
+						<th>11</th>
+						<td><a href="https://g.co/kgs/o8q9Np">Calmaria</a></td>
+						<td><a href="https://g.co/kgs/xKjbUX">Steven Knight</a></td>
+						<td>28 de Fevereiro de 2019</td>
+						<td><a href="https://g.co/kgs/xKjbUX">Matthew</a></td>
+						<td>Suspense</td>
+						<td>5.4</td>
+					</tr>
+
+					<!-- Terceiro Filme do Gênero Suspense-->
+					<tr>
+						<th>12</th>
+						<td><a href="https://g.co/kgs/FYvuiT">Águas Profundas</a></td>
+						<td><a href="https://g.co/kgs/KZFacB">Adryan lyne</a></td>
+						<td>18 de Março de 2022</td>
+						<td><a href="https://g.co/kgs/HHEVui">Ana de Armas</a></td>
+						<td>Suspense</td>
+						<td>5.4</td>
+					</tr>
+
+					<!-- Linha expandida com gênero Drama -->
+					<tr>
+						<th style="background-color: #1c1c1c;" colspan='7' id="drama">Drama</th>
+					</tr>
+					
+					<!--Primeiro filme do gênero Drama-->
+					<tr>
+						<th>13</th>
+						<td><a href="https://g.co/kgs/u7jy74">After - Depois do Desencontro</a></td>
+						<td><a href="https://g.co/kgs/uLBHsa">Castille Landon</a></td>
+						<td>2 de setembro de 2021</td>
+						<td>Drama</td>
+						<td><a href="https://g.co/kgs/WriZ9h">Hero Finnes</a></td>
+						<td>4.6</td>
+					</tr>
+
+					<!--Segundo Filme do gênero Drama-->
+					<tr>
+						<th>14</th>
+						<td><a href="https://g.co/kgs/eQ7m5e">Efeito Dominó</a></td>
+						<td><a href="https://g.co/kgs/rWq98W">Roger Donaldson</a></td>
+						<td>16 maio de 2008</td>
+						<td>Drama</td>
+						<td><a href="https://g.co/kgs/qQJ74j">Jason Statham</a></td>
+						<td>7.0</td>
+					</tr>
+
+					<!--Terceiro Filme do gênero Drama-->
+					<tr>
+						<th>15</th>
+						<td><a href="https://g.co/kgs/PzuEbG">Até o Último Homem</a></td>
+						<td><a href="https://g.co/kgs/ekCDcH">Mel Gibson</a></td>
+						<td>27 de Janeiro de 2017</td>
+						<td>Drama</td>
+						<td><a href="https://g.co/kgs/6vwdg7">Andrew Garfield</a></td>
+						<td>8.1</td>
+					</tr>
+		
+					<!-- Linha expandida com gênero Comédia -->
+					<tr>
+						<th style="background-color: #1c1c1c;" colspan='7' id="comedia">Comédia</th>
+					</tr>
+
+					<!--Primeiro Filme do Gênero Comédia-->
+					<tr>
+						<th>16</th>
+						<td><a href="https://g.co/kgs/mL9bPL">DeadPool</a></td>
+						<td><a href="https://g.co/kgs/yZpt6Z">Tim Miller</a></td>
+						<td>11 Fevereiro de 2016</td>
+						<td><a href="https://g.co/kgs/uvB7JR">Ryan Reynolds</a></td>
+						<td>Comédia</td>
+						<td>8.0</td>
+					</tr>
+
+					<!--Segundo Filme do Gênero Comédia-->
+					<tr>
+						<th>17</th>
+						<td><a href="https://g.co/kgs/XdxLKH">Encanto</a></td>
+						<td><a href="https://g.co/kgs/Kdjkhf">Byron Howard</a></td>
+						<td>26 de Novembro de 2021</td>
+						<td><a href="https://g.co/kgs/xrX5Pf">Sthephanie</a></td>
+						<td>Comédia</td>
+						<td>7.2</td>
+					</tr>
+
+					<!--Terceiro Filme do Gênero Comédia-->
+					<tr>
+						<th>18</th>
+						<td><a href="https://g.co/kgs/6zefWW">Luck</a></td>
+						<td><a href="https://g.co/kgs/Nv5kRR">Peggy Holmes</a></td>
+						<td>5 de Agosto de 2022</td>
+						<td><a href="https://g.co/kgs/ozLVbw">Eva Noblezada</a></td>
+						<td>Comédia</td>
+						<td>6.4</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+
+		<!--Linha divisória entre tabela filmes e cadastro filmes-->
+		<div class="m-5">
+			<hr class = 'border-dark border-5 opacity-100'>
+		</div>
+
+		<!--Título do cadastro de filmes-->
+		<div class="container">
+			<h1 id="TituloCadastro" class="display-3 text-center mb-5"> Cadastro de filmes </h1>
+		</div>
+
+		<!--Criando o container onde serão criados os formulários-->
+		<div class="container mb-5">
+			<form>
+				
+				<!--Linha código e lançamento-->
+				<div id="firstline" class="row">
+					
+					<div class="mb-3 col">
+						<label class = 'form-label' for="codFilme">Código: </label>
+						<input class = 'form-control' type="number" id="codFilme" placeholder="Digite seu código">
+					</div>
+
+					<div class = "mb-3 col">
+						<label class = 'form-label' for="Anofilme">Ano: </label>
+						<input class = "form-control" type="date" id="Anofilme">
+					</div>
+				</div>
+	
+				<!--Linha título e diretor-->
+				<div id = 'secondline' class="row">
+					<div class = "mb-3 col">
+						<label class = 'form-label' for="titFilme" >Título: </label>
+						<input class = "form-control" type="text" id="titFilme" placeholder="Digite Nome do Filme">
+					</div>
+
+					<div class = "mb-3 col">
+						<label class = 'form-label' for="nomeDir">Diretor: </label>
+						<input class = "form-control" type="text" id="nomeDir" placeholder="Digite Nome do Diretor">
+					</div>
+				</div>
+	
+				<br>
+
+				<!--Linha gêneros-->
+				<div class="col form-floating mb-5">
+					
+					<select class="form-select mb-5" id="floatingSelect">
+					  <option selected>Abrir opções de gênero</option>
+					  <option value="1">Ação</option>
+					  <option value="2">Romance</option>
+					  <option value="3">Aventura</option>
+					  <option value="4">Suspense</option>
+					  <option value="5">Drama</option>
+					  <option value="6">Comédia</option>
+					</select>
+					
+					<label id="labelfloating" for="floatingSelect">Escolha o gênero</label>
+				</div>
+	
+				<!--Botão enviar-->
+				<div class="col">
+					<button type="submit" class="btn btn-dark">Enviar dados</button>
+				</div>
+			</form>	
+		</div>
+
+		<!--Linha divisória para o fim do site-->
+		<div class="m-5">
+			<hr class = 'border-dark border-5 opacity-100'>
+		</div>
+	</body>
+</html>

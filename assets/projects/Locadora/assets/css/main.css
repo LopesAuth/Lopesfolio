@@ -1,0 +1,16 @@
+th, td{
+    text-align: center;
+}
+
+body{
+    background-color: grey;
+}
+
+h1, #firstline, #secondline{
+    color: whitesmoke;
+}
+
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}

@@ -1,0 +1,60 @@
+body {
+    background-color: rgb(28, 28, 28);
+    color: whitesmoke;
+    }
+
+    table{
+        width: 100%;
+    }
+
+    td {
+        background-color: rgb(54, 54, 54);
+        text-align: center;
+        width: 50px;
+        height: 80px;
+    }
+
+    th {
+        background-color: rgb(20, 20, 20);
+        text-align: center;
+        width: 50px;
+        height: 30px;
+    }
+
+    p {
+        text-align: justify;
+        text-indent: 20px;
+    }
+
+    a {
+        color: aqua;
+        font-size: large;
+        text-decoration: none;
+    }
+
+    img {
+        width: 220px;
+        height: 310px;
+        margin-left: 42%;
+        cursor: pointer;
+        border-radius: 20px;
+        transition: width 1s, height 1s, margin 1s;
+    }
+
+    img:hover {
+        width: 240px;
+        height: 330px;
+        margin-left: 41%;
+    }
+
+    span {
+        font-size: large;
+    }
+
+    .titulos{
+        text-align: center;
+    }
+
+    .fontes {
+        text-indent: 0%;
+    }
