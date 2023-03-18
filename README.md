@@ -19,11 +19,11 @@
 
 </div>
 
-<!-- Header our Readme -->
+<!-- Header of our Readme -->
 <br />
 <div align="center">
-  <a href="https://github.com/LopesLs/DesenvolvimentoWeb/Projeto15-(Portfolio)">
-    <img src="../Images/portfolioLogo.png" alt="Logo" width="80" height="80">
+  <a href="https://github.com/LopesAuth/Lopesfolio">
+    <img src="assets/images/readmeImage.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Lopes's Portfolio</h3>
@@ -31,7 +31,7 @@
   <p align="center">
     Transformando ideias em realidade, um projeto de cada vez.
     <br />
-    <a href="https://lopesls.github.io/DesenvolvimentoWeb/Projeto15-(Portfolio)/index.html"><strong>Visitar na Web »</strong></a>
+    <a href="https://lopesauth.github.io/Lopesfolio/"><strong>Visitar na Web »</strong></a>
   </p>
   <br>
 </div>
@@ -67,7 +67,7 @@ Por fim, você encontra uma área de contatos caso deseje conversar.
 
 Espero que este portfólio cumpra seu objetivo.
 
-[**Visitar na Web »**](https://lopesls.github.io/DesenvolvimentoWeb/Projeto15-(Portfolio)/index.html)
+[**Visitar na Web »**](https://lopesauth.github.io/Lopesfolio/)
 
 <p align="right" name="blankline">-</p>
 
@@ -127,16 +127,16 @@ Fique à vontade para dar um alô!
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
 <!-- Top References -->
-[contributors-shield]: https://img.shields.io/github/contributors/LopesLs/DesenvolvimentoWeb.svg?style=for-the-badge
-[contributors-url]: https://github.com/LopesLs/DesenvolvimentoWeb/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/LopesLs/DesenvolvimentoWeb.svg?style=for-the-badge
-[forks-url]: https://github.com/LopesLs/DesenvolvimentoWeb/network/members
-[stars-shield]: https://img.shields.io/github/stars/LopesLs/DesenvolvimentoWeb.svg?style=for-the-badge
-[stars-url]: https://github.com/LopesLs/DesenvolvimentoWeb/stargazers
-[issues-shield]: https://img.shields.io/github/issues/LopesLs/DesenvolvimentoWeb.svg?style=for-the-badge
-[issues-url]: https://github.com/LopesLs/DesenvolvimentoWeb/issues
-[license-shield]: https://img.shields.io/github/license/LopesLs/DesenvolvimentoWeb.svg?style=for-the-badge
-[license-url]: https://github.com/LopesLs/DesenvolvimentoWeb/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/LopesAuth/Lopesfolio.svg?style=for-the-badge
+[contributors-url]: https://github.com/LopesAuth/Lopesfolio/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/LopesAuth/Lopesfolio.svg?style=for-the-badge
+[forks-url]: https://github.com/LopesAuth/Lopesfolio/network/members
+[stars-shield]: https://img.shields.io/github/stars/LopesAuth/Lopesfolio.svg?style=for-the-badge
+[stars-url]: https://github.com/LopesAuth/Lopesfolio/stargazers
+[issues-shield]: https://img.shields.io/github/issues/LopesAuth/Lopesfolio.svg?style=for-the-badge
+[issues-url]: https://github.com/LopesAuth/Lopesfolio/issues
+[license-shield]: https://img.shields.io/github/license/LopesAuth/Lopesfolio.svg?style=for-the-badge
+[license-url]: https://github.com/LopesAuth/Lopesfolio/blob/master/LICENSE.txt
 
 <!-- Tools References -->
 [Javascript-shield]: https://img.shields.io/badge/Javascript-35495E?style=for-the-badge&logo=Javascript&logoColor=FFFF00
@@ -148,7 +148,7 @@ Fique à vontade para dar um alô!
 [whatsapp-shield]: https://img.shields.io/badge/-Whatsapp-black.svg?style=for-the-badge&logo=whatsapp&colorB=555
 [whatsapp-url]: https://wa.me/558393636048
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://www.linkedin.com/in/dev-carlos-lopes/
+[linkedin-url]: https://www.linkedin.com/in/lopeslsdev/
 [discord-shield]: https://img.shields.io/badge/-Discord-black.svg?style=for-the-badge&logo=discord&colorB=555
 [discord-url]: https://discord.com/users/471767983014805504
 [gmail-shield]: https://img.shields.io/badge/-gmail-black.svg?style=for-the-badge&logo=gmail&colorB=555
