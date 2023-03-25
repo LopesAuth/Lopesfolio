@@ -24,12 +24,7 @@
     <img src="assets/images/readmeImage.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Lopes's Portfolio</h3>
-
-
-  <p align="center">
-    Transformando ideias em realidade, um projeto de cada vez.
-    <br />
+  <h3 align="center">Lopesfolio</h3>
     
   <a href="https://lopesauth.github.io/Lopesfolio/"><strong>Visitar na Web »</strong></a>
 
