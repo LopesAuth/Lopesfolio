@@ -11,11 +11,9 @@
 
 <div align=center>
 
-[![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
 
 </div>
 
@@ -28,11 +26,13 @@
 
   <h3 align="center">Lopes's Portfolio</h3>
 
+
   <p align="center">
     Transformando ideias em realidade, um projeto de cada vez.
     <br />
-    <a href="https://lopesauth.github.io/Lopesfolio/"><strong>Visitar na Web »</strong></a>
-  </p>
+    
+  <a href="https://lopesauth.github.io/Lopesfolio/"><strong>Visitar na Web »</strong></a>
+
   <br>
 </div>
 
@@ -56,16 +56,6 @@
 
 Olá, este é o repositório oficial do meu portfólio, que contém informações detalhadas sobre a minha formação profissional, experiências e habilidades
 como desenvolvedor web.
-O objetivo é apresentar uma visão completa sobre mim e o trabalho que realizei até agora.
-
-Incluí uma seção sobre mim, onde compartilho informações pessoais e profissionais. Outra seção que você irá encontrar são informações sobre habilidades,
-a fim de fornecer uma visão mais ampla sobre elas.
-
-Também adicionei alguns projetos de desenvolvimento web que selecionei para mostrar um pouco do meu trabalho e da minha abordagem para solucionar problemas.
-
-Por fim, você encontra uma área de contatos caso deseje conversar.
-
-Espero que este portfólio cumpra seu objetivo.
 
 [**Visitar na Web »**](https://lopesauth.github.io/Lopesfolio/)
 
@@ -82,29 +72,14 @@ Com o CSS, além de definir a estética da página com cores e imagens, consegui
 
 Por fim, com JavaScript e jQuery, consegui programar a dinâmica da página com o clique dos botões e um scroll dinâmico com a imagem do header da página.
 
+Pode paracer óbio para quem tem contato com tecnologia a todo momento, mas achei importante descrever estes processos básicos.
+
 <br>
+
+## Documentação
 
 [![Javascript][Javascript-shield]][Javascript-url]
 [![JQuery][JQuery.com]][JQuery-url]
-
-<p align="right" name="blankline">-</p>
-
-<!-- Contruibuing -->
-# Contribuindo 🤝️
-
-Contribuições são o que tornam a comunidade de código aberto um lugar incrível para aprender, inspirar e criar. Todas as contribuições que você fizer serão
-**enormemente apreciadas**.
-
-Se você tiver uma sugestão que possa tornar este projeto melhor, por favor, faça um fork do repositório e crie um pull request. Você também pode simplesmente
-abrir uma issue com a tag "enhancement".
-
-Não se esqueça de dar uma estrela ao projeto! Obrigado!
-
-1. Fork do repositório
-2. Crie sua Feature Branch (`git checkout -b feature/DesenvolvimentoWeb`)
-3. Commit em suas mudanças (`git commit -m 'Add some AmazingFeature'`)
-4. Push sua Branch (`git push origin feature/DesenvolvimentoWeb`)
-5. Abra uma Pull Request.
 
 <p align="right" name="blankline">-</p>
 
@@ -127,16 +102,13 @@ Fique à vontade para dar um alô!
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
 <!-- Top References -->
-[contributors-shield]: https://img.shields.io/github/contributors/LopesAuth/Lopesfolio.svg?style=for-the-badge
-[contributors-url]: https://github.com/LopesAuth/Lopesfolio/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/LopesAuth/Lopesfolio.svg?style=for-the-badge
 [forks-url]: https://github.com/LopesAuth/Lopesfolio/network/members
 [stars-shield]: https://img.shields.io/github/stars/LopesAuth/Lopesfolio.svg?style=for-the-badge
 [stars-url]: https://github.com/LopesAuth/Lopesfolio/stargazers
 [issues-shield]: https://img.shields.io/github/issues/LopesAuth/Lopesfolio.svg?style=for-the-badge
 [issues-url]: https://github.com/LopesAuth/Lopesfolio/issues
-[license-shield]: https://img.shields.io/github/license/LopesAuth/Lopesfolio.svg?style=for-the-badge
-[license-url]: https://github.com/LopesAuth/Lopesfolio/blob/master/LICENSE.txt
+
 
 <!-- Tools References -->
 [Javascript-shield]: https://img.shields.io/badge/Javascript-35495E?style=for-the-badge&logo=Javascript&logoColor=FFFF00
@@ -145,11 +117,11 @@ Fique à vontade para dar um alô!
 [JQuery-url]: https://jquery.com
 
 <!-- Footer References -->
-[whatsapp-shield]: https://img.shields.io/badge/-Whatsapp-black.svg?style=for-the-badge&logo=whatsapp&colorB=555
+[whatsapp-shield]: https://img.shields.io/badge/-Whatsapp-black.svg?style=for-the-badge&logo=whatsapp&colorB=35495E
 [whatsapp-url]: https://wa.me/558393636048
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=35495E
 [linkedin-url]: https://www.linkedin.com/in/lopeslsdev/
-[discord-shield]: https://img.shields.io/badge/-Discord-black.svg?style=for-the-badge&logo=discord&colorB=555
+[discord-shield]: https://img.shields.io/badge/-Discord-black?style=for-the-badge&logo=discord&colorB=35495E
 [discord-url]: https://discord.com/users/471767983014805504
-[gmail-shield]: https://img.shields.io/badge/-gmail-black.svg?style=for-the-badge&logo=gmail&colorB=555
+[gmail-shield]: https://img.shields.io/badge/-gmail-black.svg?style=for-the-badge&logo=gmail&colorB=35495E
 [gmail-url]: mailto:lopes.carlos.host@gmail.com
