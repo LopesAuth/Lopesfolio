@@ -9,14 +9,6 @@
 - https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
 
-<div align=center>
-
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-
-</div>
-
 <!-- Header of our Readme -->
 <br />
 <div align="center">
@@ -37,7 +29,6 @@
 
 - [Sobre o projeto 📝](#sobre-o-projeto-)
 - [Construído com 🛠️](#construído-com-️)
-- [Contribuindo 🤝️](#contribuindo-️)
 - [Contatos 📞](#contatos-)
 
 </details>
