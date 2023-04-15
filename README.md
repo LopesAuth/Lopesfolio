@@ -47,7 +47,6 @@ como desenvolvedor web.
 
 [![Javascript][javascript-shield]][javascript-url]
 [![JQuery][jquery.com]][jquery-url]
-[![Sass][sass-shield]][sass-url]
 
 <p align="right" name="blankline">-</p>
 
@@ -67,8 +66,6 @@ Fique à vontade para dar um alô!
 
 <!-- Tools References -->
 
-[sass-shield]: https://img.shields.io/badge/Sass-35495E?style=for-the-badge&logo=Sass&logoColor=d06397
-[sass-url]: https://sass-lang.com/
 [javascript-shield]: https://img.shields.io/badge/Javascript-35495E?style=for-the-badge&logo=Javascript&logoColor=FFFF00
 [javascript-url]: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript
 [jquery.com]: https://img.shields.io/badge/jQuery-35495E?style=for-the-badge&logo=jquery&logoColor=0868ac
