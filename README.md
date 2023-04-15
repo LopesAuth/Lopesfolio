@@ -1,13 +1,6 @@
 <!-- Improved compatibility of back to top link -->
-<a name="top"></a>
 
-<!-- Shields
-- I'm using markdown "reference style" links for readability.
-- Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-- See the bottom of this document for the declaration of the reference variables
-- for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-- https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
+<a name="top"></a>
 
 <!-- Header of our Readme -->
 <br />
@@ -36,6 +29,7 @@
 <p align="right" name="blankline">-</p>
 
 <!-- ABOUT THE PROJECT -->
+
 # Sobre o projeto 📝
 
 ![[Screenshot of portfolio]](assets/images/portfolio.png)
@@ -48,16 +42,17 @@ como desenvolvedor web.
 <p align="right" name="blankline">-</p>
 
 <!-- Build with -->
+
 # Construído com 🛠️
 
-[![Javascript][Javascript-shield]][Javascript-url]
-[![JQuery][JQuery.com]][JQuery-url]
-[![Sass][Sass-shield]][Sass-url]
+[![Javascript][javascript-shield]][javascript-url]
+[![JQuery][jquery.com]][jquery-url]
+[![Sass][sass-shield]][sass-url]
 
 <p align="right" name="blankline">-</p>
 
 <!-- Contacts -->
-<!-- Contact -->
+
 # Contatos 📞
 
 Fique à vontade para dar um alô!
@@ -70,18 +65,17 @@ Fique à vontade para dar um alô!
 
 <p align=right><a href="#top">Ir ao topo</a></p>
 
-<!-- Markdown links and images -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-
 <!-- Tools References -->
-[Sass-shield]: https://img.shields.io/badge/Sass-35495E?style=for-the-badge&logo=Sass&logoColor=d06397
-[Sass-url]: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript
-[Javascript-shield]: https://img.shields.io/badge/Javascript-35495E?style=for-the-badge&logo=Javascript&logoColor=FFFF00
-[Javascript-url]: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript
-[JQuery.com]: https://img.shields.io/badge/jQuery-35495E?style=for-the-badge&logo=jquery&logoColor=0868ac
-[JQuery-url]: https://jquery.com
+
+[sass-shield]: https://img.shields.io/badge/Sass-35495E?style=for-the-badge&logo=Sass&logoColor=d06397
+[sass-url]: https://sass-lang.com/
+[javascript-shield]: https://img.shields.io/badge/Javascript-35495E?style=for-the-badge&logo=Javascript&logoColor=FFFF00
+[javascript-url]: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript
+[jquery.com]: https://img.shields.io/badge/jQuery-35495E?style=for-the-badge&logo=jquery&logoColor=0868ac
+[jquery-url]: https://jquery.com
 
 <!-- Footer References -->
+
 [whatsapp-shield]: https://img.shields.io/badge/-Whatsapp-black.svg?style=for-the-badge&logo=whatsapp&colorB=35495E
 [whatsapp-url]: https://wa.me/558393636048
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=35495E
