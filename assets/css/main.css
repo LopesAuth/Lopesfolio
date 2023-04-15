@@ -933,7 +933,7 @@ input[type="submit"]:active,
 
 	#header {
 		background-attachment: scroll;
-		background-position: top left, center center;
+		background-position: top left, center;
 		background-size: auto, cover;
 		left: auto;
 		padding: 6rem 4rem;
