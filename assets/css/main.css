@@ -835,6 +835,11 @@ input[type="submit"]:active,
 
 /* Footer */
 
+#footer {
+  position: absolute;
+  margin-top: 20rem;
+}
+
 #footer .icons {
   margin: 1rem 0 0 0;
 }
