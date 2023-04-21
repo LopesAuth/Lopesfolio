@@ -835,11 +835,6 @@ input[type="submit"]:active,
 
 /* Footer */
 
-#footer {
-  position: absolute;
-  margin-top: 20rem;
-}
-
 #footer .icons {
   margin: 1rem 0 0 0;
 }
@@ -900,6 +895,11 @@ input[type="submit"]:active,
   input,
   textarea {
     font-size: 12pt;
+  }
+
+  #footer {
+    position: absolute;
+    margin-top: 20rem;
   }
 }
 
@@ -998,6 +998,7 @@ input[type="submit"]:active,
     position: relative;
     text-align: center;
     width: 100%;
+    margin-top: 0rem;
   }
 
   #footer .icons {
