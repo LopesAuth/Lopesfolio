@@ -78,6 +78,34 @@ textarea {
 
 html {
   box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+#buttonUp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  height: 3.25rem;
+  width: 3.25rem;
+  background-color: #108fd6;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.arrow {
+  border: solid #fff;
+  border-width: 0 7px 7px 0;
+  display: inline-block;
+  padding: 5px;
+  transition: 0.5s ease-in-out;
+}
+
+.up {
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
 }
 
 #readMore {
