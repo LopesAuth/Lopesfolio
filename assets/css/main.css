@@ -972,6 +972,7 @@ input[type="submit"]:active,
     position: relative;
     text-align: center;
     width: 100%;
+    height: auto;
     display: block;
   }
 
