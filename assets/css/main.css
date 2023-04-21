@@ -81,6 +81,12 @@ html {
   scroll-behavior: smooth;
 }
 
+.strong {
+  color: #108fd6;
+  font-weight: bolder;
+}
+
+/* topButton */
 #buttonUp {
   display: flex;
   align-items: center;
