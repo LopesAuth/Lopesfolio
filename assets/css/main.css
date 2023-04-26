@@ -78,7 +78,6 @@ textarea {
 
 html {
   box-sizing: border-box;
-  scroll-behavior: smooth;
 }
 
 .strong {
@@ -99,6 +98,16 @@ html {
   background-color: #108fd6;
   border-radius: 50%;
   z-index: 1;
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+
+.occult {
+  display: none;
+}
+
+#buttonUp:hover {
+  opacity: 0.6;
 }
 
 .arrow {
@@ -106,7 +115,6 @@ html {
   border-width: 0 7px 7px 0;
   display: inline-block;
   padding: 5px;
-  transition: 0.5s ease-in-out;
 }
 
 .up {
