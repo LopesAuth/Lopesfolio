@@ -102,19 +102,15 @@ html {
   cursor: pointer;
 }
 
-.occult {
-  display: none;
-}
-
 #buttonUp:hover {
   opacity: 0.6;
 }
 
 .arrow {
   border: solid #fff;
-  border-width: 0 7px 7px 0;
+  border-width: 0 3px 3px 0;
   display: inline-block;
-  padding: 5px;
+  padding: 4px;
 }
 
 .up {
